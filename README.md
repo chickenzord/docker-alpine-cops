@@ -9,7 +9,7 @@ docker run --rm --name cops \
   -p 9000:9000
   -v $HOME/books:/books
   -e COPS_TITLE=Books
-  test/cops
+  chickenzord/cops
 ```
 
 ## Exposed ports
