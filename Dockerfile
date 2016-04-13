@@ -1,4 +1,5 @@
 FROM matriphe/alpine-php:cli-5.6
+MAINTAINER Akhyar Amarullah <akhyrul@gmail.com>
 
 RUN apk update && \
   apk add php-intl && \
