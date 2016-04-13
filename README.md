@@ -2,6 +2,12 @@
 
 Docker image for [COPS (Calibre OPDS server)](https://github.com/seblucas/cops) based on Alpine Linux
 
+## Pulling image
+
+```
+docker pull chickenzord/cops
+```
+
 ## Sample command
 
 ```
