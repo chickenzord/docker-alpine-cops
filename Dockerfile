@@ -7,3 +7,6 @@ RUN apk update && \
 VOLUME /books
 COPY cops/ /www/
 COPY config_local.php /www/config_local.php
+
+EXPOSE 9000
+CMD php -S 0.0.0.0:9000
