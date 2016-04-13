@@ -1,0 +1,3 @@
+[submodule "cops"]
+	path = cops
+	url = git@github.com:seblucas/cops.git
