@@ -12,9 +12,9 @@ docker pull chickenzord/cops
 
 ```
 docker run --rm --name cops \
-  -p 9000:9000
-  -v $HOME/books:/books
-  -e COPS_TITLE=Books
+  -p 80:9000 \
+  -v $HOME/books:/books \
+  -e COPS_TITLE=Books \
   chickenzord/cops
 ```
 
